@@ -1,0 +1,62 @@
+# Unreal Engine 기본 무시 항목
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+DerivedDataCache/*
+.vscode/
+.vs/
+.vscode/*
+
+# 프로젝트 설정 파일 중 자동 생성되는 것
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS 별 불필요한 파일
+.DS_Store
+Thumbs.db
+
+# 백업/자동 저장 파일
+*.bak
+*.tmp
+*.temp
+*.log
+*.old
+
+# Crash / Debug 관련 파일
+*.dmp
+
+# IDE 관련 불필요한 것
+*.sln
+*.opensdf
+*.sdf
+*.suo
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
+*.VC.db
+*.VC.opendb
+
+# UBT, Rider, VS 등의 캐시
+.vscode/
+.vs/
+.idea/
+*.ipr
+*.iws
+*.iml
+
+# Build 결과물 (라이브러리, 실행파일)
+*.exe
+*.dll
+*.pdb
+*.lib
+*.app
+*.so
+*.dylib
+
+# 기타
+*_BuiltData.uasset
